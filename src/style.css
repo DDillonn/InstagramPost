@@ -1,1 +1,74 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* * {
+  border: 1px dashed red;
+  min-height: 10px;
+} */
+
+body {
+  background-color: grey;
+  padding-top: 45px;
+}
+
+.igPost {
+  border-radius: 1.5%;
+  width: 400px;
+  height: 545px;
+  background-color: white;
+  margin: auto;
+}
+.postHeader {
+  display: flex;
+  height: 50px;
+}
+.postHeaderText {
+  font-size: medium;
+  width: 80%;
+  padding-top: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.postHeader .imageIcon {
+  width: 45px;
+  height: 50px;
+  padding-bottom: 1%;
+}
+.postHeader .imageDots {
+  width: 25px;
+  height: 90px;
+  padding-bottom: 40px;
+}
+.brsmall {
+  display: block;
+  margin-bottom: -0.5em;
+}
+
+.brxsmall {
+  display: block;
+  margin-bottom: -0.8em;
+}
+
+.footerImages {
+  height: 50px;
+  width: 100%;
+}
+
+.footerText h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: medium;
+  padding-left: 10px;
+}
+.footerText h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: medium;
+  padding-left: 10px;
+}
+.footerText h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: medium;
+  padding-left: 160px;
+}
